@@ -1,20 +1,8 @@
 body{
     margin: 0;
-    background: #363543 url("Image/back.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 4000px;
-    
+    background-color: #363543 ;  
 }
 
-section{
-    width: 100%;
-    height: 100vh;
-    background: #363543 url("Image/back.png");
-    background-position: center;
-    background-repeat: no-repeat;
-}
 
 .kanan{
     padding-right: 96px;
@@ -71,3 +59,21 @@ a{
     padding-right: 96px;
     padding-bottom: 72px;
 }
+
+.myButton {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .message {
+    margin-top: 10px;
+    color: white;
+  }
